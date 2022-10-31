@@ -116,39 +116,6 @@ body:
             at dev.lone.MotionCapture.l.k.<clinit>(SourceFile:12) ~[MotionCapture.jar:?]
             ... 9 more
   - type: textarea
-    id: configuration_plugin
-    attributes:
-      label: MotionCapture config.yml
-      description: Please copy and paste the config.yml file of MotionCapture (this will be automatically formatted into code).
-      render: shell
-      placeholder: | 
-        metrics: true
-        update-checker: true
-        disable-plugin-loading-messages_DONT_ASK_ME_FOR_SUPPORT_IF_YOU_SET_TRUE__THANKS: false
-        resource-pack:
-          hosting:
-            no-host:
-              enabled: false
-            auto-external-host:
-              enabled: false
-  - type: textarea
-    id: configuration_item
-    attributes:
-      label: Problematic items yml configuration file (optional)
-      description: Please copy and paste the file of your item (this will be automatically formatted into code).
-      render: shell
-      placeholder: | 
-        leather_backpack:
-          display_name: "Leather Backpack"
-          type: BODY_ITEM
-          model:
-            gui: potion:300001
-            normal: potion:300001
-            self: potion:300002
-          dye:
-            enabled: true
-            default: "#542900"
-  - type: textarea
     id: configuration_files
     attributes:
       label: Other files, you can drag and drop them here to upload. (optional)
